@@ -25,6 +25,7 @@ export class DemoLlmClient {
     });
   }
 
+  
   // First sentence requested
   BeginMessage(ws: WebSocket) {
     const res: CustomLlmResponse = {
